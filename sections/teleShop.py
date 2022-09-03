@@ -1,11 +1,10 @@
 # main shop functions to bot
 import logging
 import re
-from typing import Any, Coroutine
 
 import psycopg2
-import sections.config as config
-from main import start as start
+import config
+
 
 from telegram import __version__ as TG_VER
 

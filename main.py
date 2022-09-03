@@ -27,7 +27,7 @@ from telegram.ext import (
     ContextTypes,
 )
 
-import sections.config as config
+import config
 import sections.admin as admin
 import sections.teleShop as shop
 

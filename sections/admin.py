@@ -1,6 +1,6 @@
 # admin functions to bot
 import psycopg2
-import sections.config as config
+import config
 
 from telegram import __version__ as TG_VER
 
